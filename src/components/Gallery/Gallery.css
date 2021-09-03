@@ -3,14 +3,10 @@
     background: #101522;
 }
 
-.headline {
+.headline h1 {
     text-align: center;
     color: #fff;
 }
-
-/* h1 {
-    text-align: center;
-} */
 
 .cards__container {
     display: flex;
@@ -22,7 +18,7 @@
 }
 
 .cards__wrapper {
-    position: cover;
+    position: relative;
     margin: 50px 0 45px;
 }
 
@@ -52,7 +48,7 @@
 .cards__item__pic-wrap {
     position: cover;
     width: 100%;
-    padding-top: 60%;
+    padding-top: 67%;
     overflow: hidden;
 }
 
@@ -99,7 +95,7 @@
 }
 
 .cards__item__text {
-    color: #fff;
+    color: #252e48;
     font-size: 18px;
     line-height: 24px;
 }
