@@ -53,7 +53,7 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-    color: #fff;
+    color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
