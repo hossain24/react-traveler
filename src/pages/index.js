@@ -10,7 +10,6 @@ import AnimationOne from '../components/Animation/AnimationOne';
 import { AnimationData } from '../components/Animation/AnimationData';
 import Slider from '../components/Slider/Slider';
 import { SliderData } from '../components/Slider/SliderData';
-import Gallery from '../components/Gallery/Gallery';
 import ScrollOne from '../components/Motion/ScrollOne';
 
 const Home = () => {
@@ -24,8 +23,7 @@ const Home = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-            <HeroSection />
-            <Gallery />
+            <HeroSection />    
             <ScrollOne />
             <AnimationOne {...AnimationData} />
             <InfoSection {...homeObjOne} />
