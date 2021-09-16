@@ -27,7 +27,7 @@ export const homeObjTwo = {
     imgStart: true,
     img: require('../../images/t3.svg').default,
     alt: 'Book',
-    dark: false,
+    dark: true,
     primary: true,
     darkText: true
 }
